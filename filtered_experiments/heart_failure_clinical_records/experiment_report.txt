@@ -1,0 +1,19 @@
+==================================================
+   Experiment Report: heart_failure_clinical_records
+==================================================
+
+[1] Feature Selection Info
+--------------------------------------------------
+Target Column:        DEATH_EVENT
+Importance Threshold: 0.01
+Original Features:    13
+Selected Features:    11
+Dropped Features:     2 (Low Importance)
+Drop Rate:            15.38%
+
+[2] Resource & Performance
+--------------------------------------------------
+Total Execution Time: 225.38 sec (3.76 min)
+Peak GPU Memory Used: 1.66 GB
+Training Epochs:      100
+Generated Samples:    239

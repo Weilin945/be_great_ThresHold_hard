@@ -1,0 +1,19 @@
+==================================================
+   Experiment Report: ilpd
+==================================================
+
+[1] Feature Selection Info
+--------------------------------------------------
+Target Column:        Selector
+Importance Threshold: 0.01
+Original Features:    11
+Selected Features:    11
+Dropped Features:     0 (Low Importance)
+Drop Rate:            0.00%
+
+[2] Resource & Performance
+--------------------------------------------------
+Total Execution Time: 385.41 sec (6.42 min)
+Peak GPU Memory Used: 1.54 GB
+Training Epochs:      100
+Generated Samples:    463

@@ -1,0 +1,19 @@
+==================================================
+   Experiment Report: pima_diabetes
+==================================================
+
+[1] Feature Selection Info
+--------------------------------------------------
+Target Column:        class
+Importance Threshold: 0.01
+Original Features:    9
+Selected Features:    9
+Dropped Features:     0 (Low Importance)
+Drop Rate:            0.00%
+
+[2] Resource & Performance
+--------------------------------------------------
+Total Execution Time: 416.59 sec (6.94 min)
+Peak GPU Memory Used: 1.54 GB
+Training Epochs:      100
+Generated Samples:    614

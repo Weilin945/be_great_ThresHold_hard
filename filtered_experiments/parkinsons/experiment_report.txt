@@ -1,0 +1,19 @@
+==================================================
+   Experiment Report: parkinsons
+==================================================
+
+[1] Feature Selection Info
+--------------------------------------------------
+Target Column:        status
+Importance Threshold: 0.01
+Original Features:    23
+Selected Features:    23
+Dropped Features:     0 (Low Importance)
+Drop Rate:            0.00%
+
+[2] Resource & Performance
+--------------------------------------------------
+Total Execution Time: 311.43 sec (5.19 min)
+Peak GPU Memory Used: 3.10 GB
+Training Epochs:      100
+Generated Samples:    156
