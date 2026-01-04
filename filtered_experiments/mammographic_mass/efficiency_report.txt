@@ -1,0 +1,24 @@
+=== GTT Integrated Efficiency Report: mammographic_mass ===
+Timestamp: 2025-12-31 17:26:37
+==================================================
+
+[1] Feature Selection (Drop Bottom 20%)
+  - Original Features:    6
+  - Selected Features:    5
+  - Dropped Count:        1
+  - Weight Report:        Saved to 'feature_weights_filtered.csv'
+
+[2] Training Efficiency
+  - Total Train Time:     700.46 sec
+  - Time per Epoch:       7.0046 sec
+  - Max GPU Memory:       1576.27 MB
+
+[3] Sampling Efficiency
+  - Generated Samples:    768
+  - Total Sample Time:    153.31 sec
+  - Throughput:           5.01 rows/sec
+  - Max GPU Memory:       2978.59 MB
+
+[4] Overall
+  - Total Runtime:        855.69 sec
+==================================================

@@ -1,0 +1,24 @@
+=== GTT Integrated Efficiency Report: breast_cancer ===
+Timestamp: 2025-12-31 17:00:28
+==================================================
+
+[1] Feature Selection (Drop Bottom 20%)
+  - Original Features:    31
+  - Selected Features:    25
+  - Dropped Count:        6
+  - Weight Report:        Saved to 'feature_weights_filtered.csv'
+
+[2] Training Efficiency
+  - Total Train Time:     648.45 sec
+  - Time per Epoch:       6.4845 sec
+  - Max GPU Memory:       2660.00 MB
+
+[3] Sampling Efficiency
+  - Generated Samples:    455
+  - Total Sample Time:    40.56 sec
+  - Throughput:           11.22 rows/sec
+  - Max GPU Memory:       2974.27 MB
+
+[4] Overall
+  - Total Runtime:        691.08 sec
+==================================================

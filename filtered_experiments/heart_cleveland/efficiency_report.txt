@@ -1,0 +1,24 @@
+=== GTT Integrated Efficiency Report: heart_cleveland ===
+Timestamp: 2025-12-31 17:04:19
+==================================================
+
+[1] Feature Selection (Drop Bottom 20%)
+  - Original Features:    14
+  - Selected Features:    12
+  - Dropped Count:        2
+  - Weight Report:        Saved to 'feature_weights_filtered.csv'
+
+[2] Training Efficiency
+  - Total Train Time:     204.06 sec
+  - Time per Epoch:       2.0406 sec
+  - Max GPU Memory:       1666.36 MB
+
+[3] Sampling Efficiency
+  - Generated Samples:    242
+  - Total Sample Time:    25.45 sec
+  - Throughput:           9.51 rows/sec
+  - Max GPU Memory:       2977.67 MB
+
+[4] Overall
+  - Total Runtime:        231.43 sec
+==================================================

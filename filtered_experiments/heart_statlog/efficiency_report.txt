@@ -1,0 +1,24 @@
+=== GTT Integrated Efficiency Report: heart_statlog ===
+Timestamp: 2025-12-31 17:18:51
+==================================================
+
+[1] Feature Selection (Drop Bottom 20%)
+  - Original Features:    14
+  - Selected Features:    12
+  - Dropped Count:        2
+  - Weight Report:        Saved to 'feature_weights_filtered.csv'
+
+[2] Training Efficiency
+  - Total Train Time:     257.69 sec
+  - Time per Epoch:       2.5769 sec
+  - Max GPU Memory:       1714.33 MB
+
+[3] Sampling Efficiency
+  - Generated Samples:    216
+  - Total Sample Time:    55.89 sec
+  - Throughput:           3.86 rows/sec
+  - Max GPU Memory:       2978.42 MB
+
+[4] Overall
+  - Total Runtime:        315.33 sec
+==================================================

@@ -1,0 +1,24 @@
+=== GTT Integrated Efficiency Report: german_credit ===
+Timestamp: 2025-12-31 17:09:42
+==================================================
+
+[1] Feature Selection (Drop Bottom 20%)
+  - Original Features:    21
+  - Selected Features:    17
+  - Dropped Count:        4
+  - Weight Report:        Saved to 'feature_weights_filtered.csv'
+
+[2] Training Efficiency
+  - Total Train Time:     852.34 sec
+  - Time per Epoch:       8.5234 sec
+  - Max GPU Memory:       2012.76 MB
+
+[3] Sampling Efficiency
+  - Generated Samples:    800
+  - Total Sample Time:    70.02 sec
+  - Throughput:           11.43 rows/sec
+  - Max GPU Memory:       2979.42 MB
+
+[4] Overall
+  - Total Runtime:        924.22 sec
+==================================================

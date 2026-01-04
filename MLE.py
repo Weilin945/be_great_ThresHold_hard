@@ -25,31 +25,41 @@ warnings.filterwarnings('ignore')
 # 1. 實驗參數與路徑設定
 # ==========================================
 # 真實資料路徑 (Real Data)
-ROOT_DIR = "/home/panda3/Research/CT/be_great_Threshold_hard/experiments"
+ROOT_DIR = "/home/panda3/Research/CT/be_great_Threshold_hard/Data"
 
 # 合成資料路徑 (Synthetic Data)
 FILTERED_ROOT = "/home/panda3/Research/CT/be_great_Threshold_hard/filtered_experiments"
 
 # 指定資料集
 TARGET_DATASETS = [
-    "breast_cancer", 
+    "breast_cancer", #這個在不丟掉feature的情況下也是一次過(top_k=1)
+
     "heart_cleveland", 
     "pima_diabetes", 
     "mammographic_mass", 
-    "ilpd",
+    "german_credit", 
+    
+    #這幾個都不用debug
 
-    #"heart_failure_clinical_records",
-    #"german_credit", 
     #"parkinsons", 
     #"heart_statlog", 
+    #"ilpd",
+    #"heart_failure_clinical_records",
     #"australian_credit"
 ]
 
 # 針對特定資料集指定 Target 欄位名稱
 DATASET_PARAMS = {
-    "parkinsons": {"target": "status"}, 
-    "heart_statlog": {"target": "heart-disease"},
-    "australian_credit": {"target": "A15"}
+    "breast_cancer": {"target": "target"},
+    "heart_cleveland": {"target": "target"},
+    "pima_diabetes": {"target": "target"},
+    "mammographic_mass": {"target": "target"},
+    "ilpd": {"target": "target"},
+    "heart_failure_clinical_records": {"target": "target"},
+    "parkinsons": {"target": "target"}, # 確認這裡對應 real_train.csv 的欄位名
+    "heart_statlog": {"target": "target"},
+    "german_credit": {"target": "target"},
+    "australian_credit": {"target": "target"}
 }
 
 SEEDS = [42, 100, 123] 

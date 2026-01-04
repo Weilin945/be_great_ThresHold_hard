@@ -1,0 +1,24 @@
+=== GTT Integrated Efficiency Report: ilpd ===
+Timestamp: 2025-12-31 17:38:44
+==================================================
+
+[1] Feature Selection (Drop Bottom 20%)
+  - Original Features:    11
+  - Selected Features:    9
+  - Dropped Count:        2
+  - Weight Report:        Saved to 'feature_weights_filtered.csv'
+
+[2] Training Efficiency
+  - Total Train Time:     654.92 sec
+  - Time per Epoch:       6.5492 sec
+  - Max GPU Memory:       1578.56 MB
+
+[3] Sampling Efficiency
+  - Generated Samples:    466
+  - Total Sample Time:    70.52 sec
+  - Throughput:           6.61 rows/sec
+  - Max GPU Memory:       2978.46 MB
+
+[4] Overall
+  - Total Runtime:        727.34 sec
+==================================================

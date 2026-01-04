@@ -1,0 +1,24 @@
+=== GTT Integrated Efficiency Report: pima_diabetes ===
+Timestamp: 2025-12-31 17:12:21
+==================================================
+
+[1] Feature Selection (Drop Bottom 20%)
+  - Original Features:    9
+  - Selected Features:    8
+  - Dropped Count:        1
+  - Weight Report:        Saved to 'feature_weights_filtered.csv'
+
+[2] Training Efficiency
+  - Total Train Time:     420.97 sec
+  - Time per Epoch:       4.2097 sec
+  - Max GPU Memory:       1578.28 MB
+
+[3] Sampling Efficiency
+  - Generated Samples:    614
+  - Total Sample Time:    59.00 sec
+  - Throughput:           10.41 rows/sec
+  - Max GPU Memory:       2978.62 MB
+
+[4] Overall
+  - Total Runtime:        481.84 sec
+==================================================

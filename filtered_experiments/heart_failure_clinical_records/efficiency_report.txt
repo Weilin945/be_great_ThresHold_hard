@@ -1,0 +1,24 @@
+=== GTT Integrated Efficiency Report: heart_failure_clinical_records ===
+Timestamp: 2025-12-31 16:54:18
+==================================================
+
+[1] Feature Selection (Drop Bottom 20%)
+  - Original Features:    13
+  - Selected Features:    11
+  - Dropped Count:        2
+  - Weight Report:        Saved to 'feature_weights_filtered.csv'
+
+[2] Training Efficiency
+  - Total Train Time:     195.26 sec
+  - Time per Epoch:       1.9526 sec
+  - Max GPU Memory:       1714.35 MB
+
+[3] Sampling Efficiency
+  - Generated Samples:    239
+  - Total Sample Time:    23.18 sec
+  - Throughput:           10.31 rows/sec
+  - Max GPU Memory:       2976.80 MB
+
+[4] Overall
+  - Total Runtime:        220.36 sec
+==================================================

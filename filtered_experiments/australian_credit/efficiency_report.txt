@@ -1,0 +1,24 @@
+=== GTT Integrated Efficiency Report: australian_credit ===
+Timestamp: 2025-12-31 17:35:36
+==================================================
+
+[1] Feature Selection (Drop Bottom 20%)
+  - Original Features:    15
+  - Selected Features:    12
+  - Dropped Count:        3
+  - Weight Report:        Saved to 'feature_weights_filtered.csv'
+
+[2] Training Efficiency
+  - Total Train Time:     891.29 sec
+  - Time per Epoch:       8.9129 sec
+  - Max GPU Memory:       1682.84 MB
+
+[3] Sampling Efficiency
+  - Generated Samples:    552
+  - Total Sample Time:    112.02 sec
+  - Throughput:           4.93 rows/sec
+  - Max GPU Memory:       2977.34 MB
+
+[4] Overall
+  - Total Runtime:        1005.19 sec
+==================================================

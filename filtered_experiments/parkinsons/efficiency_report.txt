@@ -1,0 +1,24 @@
+=== GTT Integrated Efficiency Report: parkinsons ===
+Timestamp: 2025-12-31 17:13:36
+==================================================
+
+[1] Feature Selection (Drop Bottom 20%)
+  - Original Features:    23
+  - Selected Features:    19
+  - Dropped Count:        4
+  - Weight Report:        Saved to 'feature_weights_filtered.csv'
+
+[2] Training Efficiency
+  - Total Train Time:     207.76 sec
+  - Time per Epoch:       2.0776 sec
+  - Max GPU Memory:       2547.17 MB
+
+[3] Sampling Efficiency
+  - Generated Samples:    156
+  - Total Sample Time:    23.46 sec
+  - Throughput:           6.65 rows/sec
+  - Max GPU Memory:       2975.66 MB
+
+[4] Overall
+  - Total Runtime:        233.14 sec
+==================================================
